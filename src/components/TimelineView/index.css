@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  width: 90%;
+  padding: 30px;
+  text-align: center;
+}
+
+.main-heading {
+  color: #1e293b;
+  margin-bottom: 18px;
+}
+
+.sub-heading {
+  color: #171f46;
+  margin-bottom: 20px;
+}

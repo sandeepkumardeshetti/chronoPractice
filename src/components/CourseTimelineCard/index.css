@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.course-container {
+  width: 100%;
+  /* box-shadow: 0px 4px 16px 0px #bfbfbf; */
+  /* padding: 10px; */
+  /* border-radius: 10px; */
+}
+
+.title-duration-con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.course-title {
+  font-size: 20px;
+}
+
+.clock-duration-con {
+  display: flex;
+  align-items: center;
+}
+
+.course-description {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.tags-container {
+  display: flex;
+  /* gap: 0.5rem; */
+  flex-wrap: wrap;
+}
+
+.tags-container p {
+  background-color: #bfbfbf;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 2px 4px;
+  font-weight: 700;
+}
